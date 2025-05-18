@@ -11,10 +11,28 @@
       background-color: #f8f8f8;
     }
     header {
-      background-color: #001f4d;
-      color: white;
-      padding: 20px;
+      background: linear-gradient(to right, #001f4d, #003366);
+      padding: 30px 20px;
       text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 42px;
+      font-weight: 800;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+      letter-spacing: 1px;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #ddd;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
     }
     section {
       padding: 40px 20px;
@@ -75,7 +93,10 @@
 
 <header>
   <h1>Bressler Holdings LLC</h1>
-  <p>support@bresslerholdings.in.net | 329-234-4674</p>
+  <p>
+    📧 support@bresslerholdings.in.net
+    📞 329-234-4674
+  </p>
 </header>
 
 <section class="hero">
