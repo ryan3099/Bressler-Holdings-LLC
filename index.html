@@ -18,7 +18,11 @@
     }
     section {
       padding: 40px 20px;
-      text-align: center;
+      margin: 20px;
+      border: 2px solid gold;
+      border-radius: 12px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
     }
     section h2 {
       color: #001f4d;
@@ -28,13 +32,14 @@
       width: 100%;
       max-height: 400px;
       object-fit: cover;
+      border-radius: 10px;
     }
     .gallery {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
       justify-content: center;
-      padding: 20px;
+      margin-top: 20px;
     }
     .gallery img {
       width: 100%;
@@ -47,6 +52,8 @@
       width: 100%;
       height: 350px;
       margin-top: 20px;
+      border-radius: 10px;
+      overflow: hidden;
     }
     footer {
       background-color: #001f4d;
@@ -75,13 +82,17 @@
 
 <section>
   <h2>Our Services</h2>
-  <p>From consulting to infrastructure setup, we deliver forward-thinking solutions tailored to evolving business needs.</p>
-</section>
-
-<section class="gallery">
-  <h2>Our Environment</h2>
-  <img src="https://sovereigncpa.com/wp-content/uploads/accounting-services-cpa-birmingham-1024x683.jpg" alt="Office Work">
-  <img src="https://img.freepik.com/free-photo/office-cityscape-builidings-contemporary-interior-room-modern-concept_53876-14120.jpg" alt="Modern Office">
+  <p>From consulting to infrastructure setup, we deliver forward-thinking solutions tailored to evolving business needs. We provide professional support in:</p>
+  <ul style="text-align:left; max-width:600px; margin: 20px auto;">
+    <li>Business structuring</li>
+    <li>Holding management</li>
+    <li>Investment consulting</li>
+    <li>Office support and administration</li>
+  </ul>
+  <div class="gallery">
+    <img src="https://sovereigncpa.com/wp-content/uploads/accounting-services-cpa-birmingham-1024x683.jpg" alt="Office Work">
+    <img src="https://img.freepik.com/free-photo/office-cityscape-builidings-contemporary-interior-room-modern-concept_53876-14120.jpg" alt="Modern Office">
+  </div>
 </section>
 
 <section>
